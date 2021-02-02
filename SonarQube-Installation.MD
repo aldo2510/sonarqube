@@ -112,6 +112,7 @@ exit
 Download & unzip SonarQube Latest Version
 ```sh
 # yum install wget
+# yum install -y unzip
 # cd /opt
 # wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.9.5.zip
 # unzip sonarqube-7.9.5.zip
