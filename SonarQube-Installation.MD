@@ -112,9 +112,9 @@ exit
 Download & unzip SonarQube Latest Version
 ```sh
 # cd /opt
-# wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.1.0.31237.zip
-# unzip sonarqube-8.1.0.31237.zip
-# mv /opt/sonarqube-8.1.0.31237 /opt/sonarqube
+# wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.9.5.zip
+# unzip sonarqube-7.9.5.zip
+# mv /opt/sonarqube-7.9.5.zip /opt/sonarqube
 ```
 Create new user give ownership to /opt/sonarqube directory 
 ```sh
