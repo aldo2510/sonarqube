@@ -116,8 +116,7 @@ Download & unzip SonarQube Latest Version
 # cd /opt
 # wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.9.5.zip
 # unzip sonarqube-7.9.5.zip
-# mkdir sonarqube
-# mv /opt/sonarqube-7.9.5.zip /opt/sonarqube
+# mv /opt/sonarqube-7.9.5 /opt/sonarqube
 ```
 Create new user give ownership to /opt/sonarqube directory 
 ```sh
