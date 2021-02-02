@@ -52,6 +52,7 @@ $ sudo java -version
 $sudo yum install https://download.postgresql.org/pub/repos/yum/10/redhat/rhel-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm -y
 ```
 ```sh
+$ sudo dnf -qy module disable postgresql
 $ sudo yum install postgresql10-server postgresql10-contrib -y
 $ sudo /usr/pgsql-10/bin/postgresql-10-setup initdb
 $ sudo vi /var/lib/pgsql/10/data/pg_hba.conf
