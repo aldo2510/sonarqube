@@ -121,7 +121,7 @@ Download & unzip SonarQube Latest Version
 Create new user give ownership to /opt/sonarqube directory 
 ```sh
  # useradd sonar
- # password sonar
+ # passwd sonar
  # chown -R sonar:sonar /opt/sonarqube
 ```
 SonarQube Server Instance
