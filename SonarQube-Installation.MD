@@ -92,7 +92,7 @@ ALTER USER sonar WITH ENCRYPTED password 'sonar';
 ```
 Create a new database for PostgreSQL database by running:
 ```sh
-CREATE DATABASE sonarqube OWNER sonar;
+CREATE DATABASE sonar OWNER sonar;
 ```
 Exit from the psql shell:
 ```sh
